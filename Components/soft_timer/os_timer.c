@@ -22,7 +22,7 @@ struct soft_timer soft_timer[TIMER_ELEMENT_NUM_MAX + 1];
 osThreadId_t timer_task_t;
 const osThreadAttr_t timer_task_attributes = {
 	.name = "TIMER_1MS",
-	.stack_size = 1024,
+	.stack_size = 512,
 	.priority = (osPriority_t) osPriorityNormal,
 };
 

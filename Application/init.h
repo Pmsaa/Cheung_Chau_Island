@@ -1,17 +1,14 @@
 #ifndef __INIT_H
 #define __INIT_H
 
-#include "stm32f1xx_hal.h"
-
-#include "usart.h"
-#include "drv_uart.h"
-#include "drv_t12.h"
-#include "sbus.h"
-#include "can.h"
-#include "drv_can.h"
-
+#include "FreeRTOS.h"
+#include "task.h"
 #include "board.h"
+#include "os_timer.h"
+#include "chassis_task.h"
 
-void system_service(void);
+void hw_init(void);
+void sys_init(void);
+void task_init(void);
 
 #endif // __INIT_H

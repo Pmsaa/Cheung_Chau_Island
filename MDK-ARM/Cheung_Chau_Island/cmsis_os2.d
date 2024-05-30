@@ -1,8 +1,8 @@
 cheung_chau_island\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-cheung_chau_island\cmsis_os2.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+cheung_chau_island\cmsis_os2.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 cheung_chau_island\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-cheung_chau_island\cmsis_os2.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-cheung_chau_island\cmsis_os2.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+cheung_chau_island\cmsis_os2.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+cheung_chau_island\cmsis_os2.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 cheung_chau_island\cmsis_os2.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 cheung_chau_island\cmsis_os2.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 cheung_chau_island\cmsis_os2.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h

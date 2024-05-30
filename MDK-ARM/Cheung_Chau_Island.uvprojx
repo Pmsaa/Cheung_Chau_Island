@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Components/support;../Components/log;../Components/board;../Components/devices;../Application;../Components/soft_timer;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Components/support;../Components/log;../Components/board;../Components/devices;../Application;../Components/soft_timer;..\Components\algorithm;..\Application\chassis</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -641,6 +641,11 @@
               <FileType>1</FileType>
               <FilePath>..\Application\init.c</FilePath>
             </File>
+            <File>
+              <FileName>chassis_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Application\chassis\chassis_task.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -725,6 +730,16 @@
               <FileName>log_config.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Components\log\log_config.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>algorithm</GroupName>
+          <Files>
+            <File>
+              <FileName>caterpillar.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Components\algorithm\caterpillar.c</FilePath>
             </File>
           </Files>
         </Group>

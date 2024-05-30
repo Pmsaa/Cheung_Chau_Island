@@ -1,19 +1,36 @@
 #include "init.h"
 
 #define LOG_TAG "init"
-#define LOG_OUTPUT_LEVEL	5
+#define LOG_OUTPUT_LEVEL  LOG_INFO
 #include "log.h"
 
-struct rc_device chassis_rc;
-
-void system_service(void)
+void SystemServiceTask(void *argument)
 {
-	usart1_manage_init();
-	log_printf("\r\n\r\n---------------------------------------------------------");
-	log_i("system start.");
-	
-	t12_uart_init(t12_rx_data_by_uart, NULL);
-	rc_device_register(&chassis_rc, "t12");
-	
+	hw_init();
+	sys_init();
+	task_init();
+
+	for( ; ; )
+	{
+
+		vTaskDelay(500);
+	}
+}
+
+void hw_init(void)
+{
+	board_config();
 	
 }
+
+void sys_init(void)
+{
+	soft_timer_FreeRTOS_init();
+}
+
+void task_init(void)
+{
+	chassis_init();
+}
+
+
