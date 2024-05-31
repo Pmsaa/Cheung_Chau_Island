@@ -51,7 +51,7 @@
 osThreadId_t system_serviceHandle;
 const osThreadAttr_t system_service_attributes = {
   .name = "system_service",
-  .stack_size = 512 * 4,
+  .stack_size = 256 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 

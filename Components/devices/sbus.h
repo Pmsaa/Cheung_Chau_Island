@@ -23,6 +23,9 @@
 #define SMALL_BOUNDARY	400
 #define BIG_BOUNDARY	1500
 
+#define RC_DEV_MAX		1722
+#define RC_DEV_MIN		282
+
 #define RC_E5_UP		(1 << 0U)
 #define RC_E5_MID		(1 << 1U)
 #define RC_E5_DOWN		(1 << 2U)
@@ -67,8 +70,6 @@ struct rc_info
 	uint16_t d12;	// default 282;press 1722;long press 1002
 	
 };
-
-
 
 struct rc_device
 {

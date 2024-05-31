@@ -4,7 +4,7 @@
 #define LOG_OUTPUT_LEVEL  LOG_INFO
 #include "log.h"
 
-void SystemServiceTask(void *argument)
+void system_service_task(void *argument)
 {
 	hw_init();
 	sys_init();

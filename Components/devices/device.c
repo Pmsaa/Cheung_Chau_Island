@@ -27,8 +27,8 @@ char *device_name[DEVICE_UNKNOW] =
     "NULL",
     "MOTOR",
     "SBUS",
-    "SINGLE_GYRO",
-	"IO",
+    "LINEAR",
+	"GPIO",
 };
 
 /* Device Infonation Link Table */

@@ -40,8 +40,8 @@ enum device_type
     DEVICE_INIT = 0,
     DEVICE_MOTOR,
     DEVICE_SBUS,
-    DEVICE_SINGLE_GYRO,
-	DEVICE_IO,
+    DEVICE_LINEAR,
+	DEVICE_GPIO,
     DEVICE_UNKNOW
 };
 

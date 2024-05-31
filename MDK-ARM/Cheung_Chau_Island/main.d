@@ -64,5 +64,5 @@ cheung_chau_island\main.o: ../Components/devices/motor.h
 cheung_chau_island\main.o: ../Components/soft_timer/os_timer.h
 cheung_chau_island\main.o: ../Components/soft_timer/soft_timer.h
 cheung_chau_island\main.o: ../Components/soft_timer/period.h
-cheung_chau_island\main.o: ..\Application\chassis\chassis_task.h
-cheung_chau_island\main.o: ..\Components\algorithm\caterpillar.h
+cheung_chau_island\main.o: ../Application/chassis/chassis_task.h
+cheung_chau_island\main.o: ../Components/algorithm/caterpillar.h

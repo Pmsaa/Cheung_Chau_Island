@@ -56,7 +56,7 @@ cheung_chau_island\chassis_task.o: ../Core/Inc/can.h
 cheung_chau_island\chassis_task.o: ../Core/Inc/main.h
 cheung_chau_island\chassis_task.o: ../Components/board/drv_can.h
 cheung_chau_island\chassis_task.o: ../Components/devices/motor.h
-cheung_chau_island\chassis_task.o: ..\Components\algorithm\caterpillar.h
+cheung_chau_island\chassis_task.o: ../Components/algorithm/caterpillar.h
 cheung_chau_island\chassis_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 cheung_chau_island\chassis_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 cheung_chau_island\chassis_task.o: ../Components/log/log.h
